@@ -23,24 +23,27 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 
 ### ER Diagram:
 *Paste or attach your diagram here*  
-![ER Diagram](er_diagram_fitness.png)
+
+<img width="791" height="865" alt="Screenshot 2025-08-29 225250" src="https://github.com/user-attachments/assets/b684b060-f82e-4d63-b975-962d4dbb1c56" />
+
 
 ### Entities and Attributes
 
 | Entity | Attributes (PK, FK) | Notes |
 |--------|--------------------|-------|
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
+|    Member    |        MemberID ,Membership          |  Store member details     |
+|      Trainer  |      TrainerID,Name,Email,PhoneNumber              |     Store Trainer details  |
+|  Program      |      ProgramID,Cost              |  Programs like Zumbz/yoga     |
+|    Session    |       SessionID,SessionDate             |    Tracks attendance   |
+|    Payment    |          PaymentID,Amount          |   Tracks payments by members    |
+
 
 ### Relationships and Constraints
 
 | Relationship | Cardinality | Participation | Notes |
 |--------------|------------|---------------|-------|
-|              |            |               |       |
-|              |            |               |       |
+|       Member-Program       |     M:N       |      Optional(Member),Mandatory(Enrollment)         | Member may or may not join programs      |
+|          Trainer-Program    |      M:N      |            Optional(Trainer),Mandatory(Assignment)   |  Trainer may or may not run Programs     |
 |              |            |               |       |
 
 ### Assumptions
@@ -65,7 +68,9 @@ The Central Library wants to manage book lending and cultural events.
 
 ### ER Diagram:
 *Paste or attach your diagram here*  
-![ER Diagram](er_diagram_library.png)
+
+<img width="728" height="852" alt="Screenshot 2025-08-29 225310" src="https://github.com/user-attachments/assets/711314cd-dd0f-44a0-a057-cbd449efdb81" />
+
 
 ### Entities and Attributes
 
@@ -107,7 +112,10 @@ A popular restaurant wants to manage reservations, orders, and billing.
 
 ### ER Diagram:
 *Paste or attach your diagram here*  
-![ER Diagram](er_diagram_restaurant.png)
+
+
+<img width="654" height="807" alt="Screenshot 2025-08-29 225323" src="https://github.com/user-attachments/assets/a66f572c-2469-4876-867e-74fe02d8478a" />
+
 
 ### Entities and Attributes
 
