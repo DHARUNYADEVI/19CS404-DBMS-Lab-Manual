@@ -74,7 +74,7 @@ and commission_pct<0.35;
 
 **Output:**
 
-![Output1]![image](https://github.com/user-attachments/assets/94375e14-6e23-4da1-a33c-adcdad40e93e)
+![image](https://github.com/user-attachments/assets/94375e14-6e23-4da1-a33c-adcdad40e93e)
 
 
 **Question 2**
@@ -105,7 +105,7 @@ and job_id LIKE '%MAN';
 
 **Output:**
 
-![Output2]![image](https://github.com/user-attachments/assets/e94762a8-ad0c-492f-9093-4c882dcc6471)
+![image](https://github.com/user-attachments/assets/e94762a8-ad0c-492f-9093-4c882dcc6471)
 
 
 **Question 3**
@@ -142,7 +142,7 @@ end
 
 **Output:**
 
-![Output3]![image](https://github.com/user-attachments/assets/bd8cc915-6990-44dd-aea7-30de9d795741)
+![image](https://github.com/user-attachments/assets/bd8cc915-6990-44dd-aea7-30de9d795741)
 
 
 **Question 4**
@@ -159,7 +159,7 @@ and product_id = 12;
 
 **Output:**
 
-![Output4]![image](https://github.com/user-attachments/assets/19932988-8e73-46e6-a2ba-0b45564a424c)
+![image](https://github.com/user-attachments/assets/19932988-8e73-46e6-a2ba-0b45564a424c)
 
 
 **Question 5**
@@ -187,7 +187,7 @@ where category='Bakery'
 
 **Output:**
 
-![Output5]![image](https://github.com/user-attachments/assets/c10e6f3e-e7fc-4b85-aa79-a221edaadbf2)
+![image](https://github.com/user-attachments/assets/c10e6f3e-e7fc-4b85-aa79-a221edaadbf2)
 
 
 **Question 6**
@@ -204,7 +204,7 @@ AND OUTSTANDING_AMT<5000;
 
 **Output:**
 
-![Output6]![image](https://github.com/user-attachments/assets/6a71fdcd-2ecb-4a1e-a1ea-7f2a32bdf8ae)
+![image](https://github.com/user-attachments/assets/6a71fdcd-2ecb-4a1e-a1ea-7f2a32bdf8ae)
 
 
 **Question 7**
@@ -220,7 +220,7 @@ WHERE CUST_NAME LIKE'%Holmes%';
 
 **Output:**
 
-![Output7]![image](https://github.com/user-attachments/assets/d3a55e8a-6209-4d3e-aa23-1454b5e75f2a)
+![image](https://github.com/user-attachments/assets/d3a55e8a-6209-4d3e-aa23-1454b5e75f2a)
 
 
 **Question 8**
@@ -239,7 +239,7 @@ AND First_name = 'Michael';
 
 **Output:**
 
-![Output8]![image](https://github.com/user-attachments/assets/acec2d50-eb02-435f-9b28-841936a58fde)
+![image](https://github.com/user-attachments/assets/acec2d50-eb02-435f-9b28-841936a58fde)
 
 
 **Question 9**
@@ -257,7 +257,7 @@ and GRADE<3;
 
 **Output:**
 
-![Output9]![image](https://github.com/user-attachments/assets/dc3f579d-8af1-4730-86df-cb4f451e0ba2)
+![image](https://github.com/user-attachments/assets/dc3f579d-8af1-4730-86df-cb4f451e0ba2)
 
 
 **Question 10**
@@ -275,7 +275,7 @@ AND PAYMENT_AMT > 2000;
 
 **Output:**
 
-![Output10]![image](https://github.com/user-attachments/assets/35b84411-6b60-49db-b77a-69a047f3a465)
+![image](https://github.com/user-attachments/assets/35b84411-6b60-49db-b77a-69a047f3a465)
 
 
 ## RESULT
